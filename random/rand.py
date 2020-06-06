@@ -1,16 +1,12 @@
-import random
+import head
 import tkinter
-
+import tkinter.messagebox
 a = tkinter.Tk()
-a.title("randing——")
-# 读入文件
+a.title("randing")
 
 
-# 读入文件
-button = tkinter.Button(a, "look me!I'm ‘start’")
+button = tkinter.Button(a, text="start", commend=head.helloCallBack())
 button.pack()
-
-lable = tkinter.Label(a, "123", "pink")
+lable = tkinter.Label(a, "the rand", "pink")
 lable.pack()
 a.mainloop()
-#
